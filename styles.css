@@ -332,7 +332,7 @@ footer div {
 }
 .grid-fixer{
   display:flex;
-  gap:30px 25px ;
+  gap:30px 25px;
   flex-wrap: wrap;
   /* max-width:fit-content; */
   justify-content: center;
