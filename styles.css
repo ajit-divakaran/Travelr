@@ -332,7 +332,7 @@ footer div {
 }
 .grid-fixer{
   display:flex;
-  gap:30px 15px ;
+  gap:30px 25px ;
   flex-wrap: wrap;
   /* max-width:fit-content; */
   justify-content: center;
@@ -422,3 +422,13 @@ footer div {
 .work-2 p{
   color:black;
 }
+
+.hov{
+  background-color: #b43f3f;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.hov:hover{
+ background-color:#ff8225
+}
+
