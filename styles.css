@@ -131,110 +131,6 @@ main,.sec-head {
 }
 
 
-@media (max-width: 768px) {
-  /* main{
-    display: flex;
-    flex-direction: column;
-    align-items:center ;
-    } */
-
-  .second-nav {
-    display: none;
-  }
-  .small {
-    display: block;
-  }
-  .outer {
-    display: none;
-  }
-  .inner {
-    display: block;
-  }
-  
-  #home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    & #main-h1{
-      margin:80px 0 0 0;
-    }
-    & p{
-      margin:20px 0 0 0;
-      width:50vw;
-      color:beige;
-    }
-  }
-  
-  #home h1,p{
-    color:black;
-  }
-  
-  main h1 {
-    margin: 0;
-  }
-  .book {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .book-contain {
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    align-items: start;
-    gap: 15px;
-    width: 80vw;
-    border-radius: 10px;
-    border: 1px solid black;
-  }
-
-  
-  #From,
-  #To,
-  #Date,
-  #Budget,
-  #Guest {
-    background-color: white;
-    padding: 12px;
-    width: 100%;
-
-    & input {
-      border: 1px solid grey;
-      padding: 8px;
-      width: 100%;
-      background-color: transparent;
-      border-radius: 0;
-    }
-  }
-  
-  .book button {
-    padding: 14px;
-    background-color: #ff8225;
-    border-radius: 10px;
-    width: 100%;
-    border: none;
-  }
-}
-
-@media (min-width: 769px) {
-  .small {
-    display: none;
-  }
-
-  #home h1,#home p{
-    margin-left: 8%;
-  }
-  #main-h1{
-    margin-top:10%;
-  }
-
-  #India-card{
-    width:40vw;
-    
-  }
-}
 /* --------------------------- */
 /* footer {
   height: auto;
@@ -395,7 +291,7 @@ footer div {
   & a{
     color:#f8eded;
   }
-
+  
   & p{
     color:#91c7ff
   }
@@ -413,6 +309,7 @@ footer div {
   display:flex;
   justify-content: center;
   align-items: center;
+  /* width:fit-content; */
 }
 
 .work-1,.work-2{
@@ -442,7 +339,7 @@ footer div {
 }
 
 .hov:hover{
- background-color:#ff8225
+  background-color:#ff8225
 }
 
 .feat{
@@ -461,7 +358,7 @@ footer div {
 
    & img{
     background-color: #f4f7ff;
-   }
+  }
  } 
   & img{
     margin-top:3px;
@@ -478,3 +375,134 @@ footer div {
     font-size: 0.8em;
   }
 }
+
+.popular a:hover{
+  color:#b43f3f;
+}
+
+.card:hover {
+
+
+  box-shadow: rgba(14, 63, 126, 0.04) 0px 0px 0px 1px, rgba(42, 51, 69, 0.04) 0px 1px 1px -0.5px, rgba(42, 51, 70, 0.04) 0px 3px 3px -1.5px, rgba(42, 51, 70, 0.04) 0px 6px 6px -3px, rgba(14, 63, 126, 0.04) 0px 12px 12px -6px, rgba(14, 63, 126, 0.04) 0px 24px 24px -12px;
+
+}
+  @media (max-width: 768px) {
+    /* main{
+      display: flex;
+      flex-direction: column;
+      align-items:center ;
+      } */
+  
+    .second-nav {
+      display: none;
+    }
+    .small {
+      display: block;
+    }
+    .outer {
+      display: none;
+    }
+    .inner {
+      display: block;
+    }
+    
+    #home {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      & #main-h1{
+        margin:80px 0 0 0;
+      }
+      & p{
+        margin:20px 0 0 0;
+        width:50vw;
+        color:beige;
+      }
+    }
+    
+    #home h1,p{
+      color:black;
+    }
+    
+    main h1 {
+      margin: 0;
+    }
+    .book {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .book-contain {
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
+      align-items: start;
+      gap: 15px;
+      width: 80vw;
+      border-radius: 10px;
+      border: 1px solid black;
+    }
+  
+    
+    #From,
+    #To,
+    #Date,
+    #Budget,
+    #Guest {
+      background-color: white;
+      padding: 12px;
+      width: 100%;
+  
+      & input {
+        border: 1px solid grey;
+        padding: 8px;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 0;
+      }
+    }
+    
+    .book button {
+      padding: 14px;
+      background-color: #ff8225;
+      border-radius: 10px;
+      width: 100%;
+      border: none;
+    }
+  
+
+  }
+  
+  @media (min-width: 769px) {
+    .small {
+      display: none;
+    }
+  
+    #home h1,#home p{
+      margin-left: 8%;
+    }
+    #main-h1{
+      margin-top:10%;
+    }
+  
+    #India-card{
+      width:40vw;
+      
+    }
+  }
+
+  @media (max-width: 1123px) {
+    .work-1{
+      display:none;
+    }
+    .work-2{
+      width:fit-content;
+    }
+    .works{
+      display: flex;
+      justify-content: center;
+    }
+    
+  }
